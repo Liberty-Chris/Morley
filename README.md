@@ -1,6 +1,6 @@
 # **Morley** – A Ladder Logic Based Language for Smart Contracts on Cardano
 
-**Morley** is a domain-specific language (DSL) that brings **Ladder Logic programming** to **Cardano Smart Contracts**, enabling automation engineers, industrial programmers, and IoT developers to build **blockchain-powered automation** with ease. 
+**Morley** is a domain specific language (DSL) that brings **Ladder Logic programming** to **Cardano Smart Contracts**, enabling automation engineers, industrial programmers, and IoT developers to build **blockchain-powered automation** with ease. 
 
 By compiling Ladder Logic into **Plutus Core**, **Morley** simplifies smart contract development for those familiar with **PLC programming**, **embedded systems**, and **industrial automation**.
 
