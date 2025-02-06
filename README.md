@@ -47,3 +47,43 @@ Counter2 == 0    --[ ]--( )-- TX_Send(* Burn tokens when inventory is empty *)
 (* Implement a reset condition *)
 Reset --[ ]--( )-- Counter1 (* Reset inventory counter *)
 Reset --[ ]--( )-- Counter2 (* Reset removed items counter *)
+
+### 3️⃣ **Compile to Plutus Core**
+
+```bash
+morley compile contract.ll
+
+## 🎨 morley GUI
+
+The **morley GUI** is a sleek and modern interface for building Ladder Logic-based smart contracts. Designed with usability and clarity in mind, the GUI simplifies complex workflows without overwhelming the user.
+
+[Learn more at morleylang.org](https://morleylang.org)
+
+## 📖 Documentation
+
+Visit our Documentation Hub to explore:
+
+- **Advanced Tutorials**
+- **Smart Contract Deployment**
+- **Best Practices for Blockchain Integration**
+- **Industry Specific Research**
+
+## 🤝 Contributing
+
+We welcome contributions from developers, industrial engineers, and blockchain enthusiasts. If you'd like to contribute:
+
+1. **Fork the repository**.
+2. **Create a feature branch**:  
+   ```bash
+   git checkout -b feature/your-feature
+3. **Submit a pull request**:
+Open a pull request to share your work with the community and contribute to the morley project!
+
+## 💡 License
+
+This project is licensed under the **MIT License**. Feel free to use and adapt **Morley** to your needs while crediting the original authors.
+
+## 🌐 Stay Connected
+
+- **Website**: [morleylang.org](#)  
+- **Twitter**: [@morleycardano](https://x.com/morleycardano) 
