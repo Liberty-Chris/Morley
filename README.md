@@ -86,5 +86,5 @@ This project is licensed under the **MIT License**. Feel free to use and adapt *
 
 ## 🌐 Stay Connected
 
-- **Website**: [morleylang.org](#)  
+- **Website**: [morleylang.org](https://morleylang.org)  
 - **X**: [@morleycardano](https://x.com/morleycardano) 
