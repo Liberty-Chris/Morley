@@ -51,12 +51,11 @@ A **Ladder Logic-based Smart Contract** that tracks an **inventory system** on *
 
 To compile the smart contract to Plutus Core, run the following command:
 
-```bash
-morley compile contract.ll``` ``` ```
+```morley compile contract.ll```
 
 
 
-🎨 Morley GUI
+## 🎨 Morley GUI
 
 The **Morley GUI** is a sleek and modern interface for building Ladder Logic based smart contracts. Designed with usability and clarity in mind, the GUI simplifies complex workflows without overwhelming the user.
 
@@ -77,8 +76,7 @@ We welcome contributions from developers, industrial engineers, and blockchain e
 
 1. **Fork the repository**.
 2. **Create a feature branch**:  
-   ```bash
-   git checkout -b feature/your-feature
+```git checkout -b feature/your-feature```
 3. **Submit a pull request**:
 Open a pull request to share your work with the community and contribute to the morley project!
 
@@ -89,4 +87,4 @@ This project is licensed under the **MIT License**. Feel free to use and adapt *
 ## 🌐 Stay Connected
 
 - **Website**: [morleylang.org](#)  
-- **Twitter**: [@morleycardano](https://x.com/morleycardano) 
+- **X**: [@morleycardano](https://x.com/morleycardano) 
