@@ -57,7 +57,7 @@ To compile the smart contract to Plutus Core, run the following command:
 
 ## 🎨 Morley GUI
 
-The **Morley GUI** is a sleek and modern interface for building Ladder Logic based smart contracts. Designed with usability and clarity in mind, the GUI simplifies complex workflows without overwhelming the user.
+The **Morley GUI** is a simple interface for building Ladder Logic based smart contracts. Designed with usability and clarity in mind, the GUI simplifies complex workflows without overwhelming the user. Extended functionality is in progress.
 ![alt text](https://raw.githubusercontent.com/Liberty-Chris/morley/refs/heads/main/images/arkwriter.png)
 [Learn more at morleylang.org](https://morleylang.org)
 
