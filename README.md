@@ -48,10 +48,16 @@ Counter2 == 0    --[ ]--( )-- TX_Send(* Burn tokens when inventory is empty *)
 Reset --[ ]--( )-- Counter1 (* Reset inventory counter *)
 Reset --[ ]--( )-- Counter2 (* Reset removed items counter *)
 
-### 3️⃣ **Compile to Plutus Core**
+---
+
+### **3️⃣ Compile to Plutus Core**
+
+To compile the smart contract to Plutus Core, run the following command:
 
 ```bash
 morley compile contract.ll
+
+
 
 ## 🎨 morley GUI
 
