@@ -52,7 +52,7 @@ A **Ladder Logic-based Smart Contract** that tracks an **inventory system** on *
 To compile the smart contract to Plutus Core, run the following command:
 
 ```bash
-morley compile contract.ll
+morley compile contract.ll```
 
 
 🎨 Morley GUI
