@@ -959,27 +959,27 @@ For more information, visit [**morleylang.org**](https://morleylang.org) and joi
 
 References
 
-<a name="1"></a> M. M. Chakravarty et al., "Plutus: A Safe and Flexible Smart Contract Platform," IOHK Research, 2018\. \[Online\]. Available: https://iohk.io/en/research/library/papers/plutus-a-safe-and-flexible-smart-contract-platform/
+<a name="1">1</a> M. M. Chakravarty et al., "Plutus: A Safe and Flexible Smart Contract Platform," IOHK Research, 2018\. \[Online\]. Available: https://iohk.io/en/research/library/papers/plutus-a-safe-and-flexible-smart-contract-platform/
 
-<a name="2"></a> M. M. Chakravarty et al., "The Extended UTXO Model: A Flexible Alternative to Account-Based Blockchains," IOHK Research, 2020\. \[Online\]. Available: https://iohk.io/en/research/library/papers/the-extended-utxo-model/
+<a name="2">2</a> M. M. Chakravarty et al., "The Extended UTXO Model: A Flexible Alternative to Account-Based Blockchains," IOHK Research, 2020\. \[Online\]. Available: https://iohk.io/en/research/library/papers/the-extended-utxo-model/
 
-<a name="3"></a> D. Coutts et al., "Transaction Validation and Determinism in Cardano," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/transaction-validation-and-determinism-in-cardano/
+<a name="3">3</a> D. Coutts et al., "Transaction Validation and Determinism in Cardano," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/transaction-validation-and-determinism-in-cardano/
 
-<a name="4"></a> D. Coutts et al., "Hydra: Fast Isomorphic State Channels," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/hydra-fast-isomorphic-state-channels/
+<a name="4">4</a> D. Coutts et al., "Hydra: Fast Isomorphic State Channels," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/hydra-fast-isomorphic-state-channels/
 
-<a name="5"></a> IOHK Research, "Midgard: A Computational Framework for Off-Chain Execution," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/midgard-a-computational-framework-for-off-chain-execution/
+<a name="5">5</a> IOHK Research, "Midgard: A Computational Framework for Off-Chain Execution," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/midgard-a-computational-framework-for-off-chain-execution/
 
-[<a name="6"></a> Midnight, "Nightpaper: A Litepaper Introducing Midnight," Sep. 16, 2024\. \[Online\]. Available: https://midnight.network/whitepaper
+[<a name="6">6</a> Midnight, "Nightpaper: A Litepaper Introducing Midnight," Sep. 16, 2024\. \[Online\]. Available: https://midnight.network/whitepaper
 
-<a name="7"></a> IOHK Research, "Cardano Sidechains: Architecture and Interoperability," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/cardano-sidechains-architecture-and-interoperability/
+<a name="7">7</a> IOHK Research, "Cardano Sidechains: Architecture and Interoperability," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/cardano-sidechains-architecture-and-interoperability/
 
-<a name="8"></a> T. Casini, "OpenPLC: An Open-Source Alternative for Industrial Automation," IEEE Industrial Electronics Magazine, 2017\. \[Online\]. Available: https://ieeexplore.ieee.org/document/7989308
+<a name="8">8</a> T. Casini, "OpenPLC: An Open-Source Alternative for Industrial Automation," IEEE Industrial Electronics Magazine, 2017\. \[Online\]. Available: https://ieeexplore.ieee.org/document/7989308
 
-<a name="9"></a> International Electrotechnical Commission (IEC), "IEC 61131-3: Programmable Controllers – Part 3: Programming Languages," 2013\. \[Online\]. Available: https://webstore.iec.ch/publication/4552
+<a name="9">9</a> International Electrotechnical Commission (IEC), "IEC 61131-3: Programmable Controllers – Part 3: Programming Languages," 2013\. \[Online\]. Available: https://webstore.iec.ch/publication/4552
 
-<a name="10"></a> I. Lee and K. Lee, "The Internet of Things (IoT): Applications, Investments, and Challenges for Enterprises," Business Horizons, 2015\. \[Online\]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0007681314001320
+<a name="10">10</a> I. Lee and K. Lee, "The Internet of Things (IoT): Applications, Investments, and Challenges for Enterprises," Business Horizons, 2015\. \[Online\]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0007681314001320
 
-<a name="11"></a> X. Xu et al., "The Application of Smart Contracts in Supply Chain Management," IEEE Internet of Things Journal, 2020\. \[Online\]. Available: https://ieeexplore.ieee.org/document/9153035
+<a name="11">11</a> X. Xu et al., "The Application of Smart Contracts in Supply Chain Management," IEEE Internet of Things Journal, 2020\. \[Online\]. Available: https://ieeexplore.ieee.org/document/9153035
 
 
 
