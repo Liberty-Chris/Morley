@@ -4,7 +4,7 @@
 
 Morley is a domain specific language (DSL) designed to bridge the gap between industrial automation and blockchain technology. By enabling Ladder Logic, a widely used programming paradigm in industrial control systems, to compile directly to Plutus Core, Morley brings automation logic onto the Cardano blockchain.
 
-This innovation empowers engineers, developers, and IoT specialists to leverage secure, transparent, and decentralized execution for industrial applications, logistics, energy management, and decentralized finance. Morley introduces ArkWriter, a graphical Ladder Logic editor, and a robust compilation pipeline, making blockchain-based automation as intuitive as programming a PLC. The entire world runs on Ladder Logic. Morley gives it a pathway into blockchain.
+This innovation empowers engineers, developers, and IoT specialists to leverage secure, transparent, and decentralized execution for industrial applications, logistics, energy management, and decentralized finance. Morley introduces ArkWriter, a graphical Ladder Logic editor, and a robust compilation pipeline, making blockchain based automation as intuitive as programming a PLC. The entire world runs on Ladder Logic. Morley gives it a pathway into blockchain.
 
 ### **Key Benefits**
 
