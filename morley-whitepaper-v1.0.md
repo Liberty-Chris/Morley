@@ -969,7 +969,7 @@ References
 
 <a name="5">5</a> IOHK Research, "Midgard: A Computational Framework for Off-Chain Execution," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/midgard-a-computational-framework-for-off-chain-execution/
 
-[<a name="6">6</a> Midnight, "Nightpaper: A Litepaper Introducing Midnight," Sep. 16, 2024\. \[Online\]. Available: https://midnight.network/whitepaper
+<a name="6">6</a> Midnight, "Nightpaper: A Litepaper Introducing Midnight," Sep. 16, 2024\. \[Online\]. Available: https://midnight.network/whitepaper
 
 <a name="7">7</a> IOHK Research, "Cardano Sidechains: Architecture and Interoperability," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/cardano-sidechains-architecture-and-interoperability/
 
