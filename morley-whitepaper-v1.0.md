@@ -20,16 +20,16 @@ By extending Ladder Logic into blockchain powered automation, Morley simplifies 
 
 Ladder Logic has long been the standard for programming Programmable Logic Controllers (PLCs), which are integral to industrial automation. However, traditional PLCs operate in siloed environments, limiting transparency, verifiability, and interoperability with external systems. Blockchain technology offers a decentralized, trustless infrastructure that enhances automation through immutability, security, and transparent execution.
 
-Morley was created to unify these paradigms, allowing engineers and developers to leverage their existing Ladder Logic expertise to build decentralized applications (dApps) on Cardano. By compiling Ladder Logic directly into Plutus Core, Morley ensures that industrial automation workflows can execute deterministically within the blockchain environment, guaranteeing consistency and security in machine driven operations.[1](morley-whitepaper-v1.0.md/place1) 
+Morley was created to unify these paradigms, allowing engineers and developers to leverage their existing Ladder Logic expertise to build decentralized applications (dApps) on Cardano. By compiling Ladder Logic directly into Plutus Core, Morley ensures that industrial automation workflows can execute deterministically within the blockchain environment, guaranteeing consistency and security in machine driven operations.[1](#1) 
 
 ### **Ensuring Deterministic Execution**
 
-A key challenge in bringing automation logic on-chain is ensuring deterministic execution, where outcomes remain consistent across all validating nodes in a decentralized network. Morley addresses this by leveraging Cardano’s Extended UTXO (eUTxO) model, ensuring that Ladder Logic smart contracts execute reliably, without state conflicts or unexpected behavior.[2](place1)
+A key challenge in bringing automation logic on-chain is ensuring deterministic execution, where outcomes remain consistent across all validating nodes in a decentralized network. Morley addresses this by leveraging Cardano’s Extended UTXO (eUTxO) model, ensuring that Ladder Logic smart contracts execute reliably, without state conflicts or unexpected behavior.[2](#2)
 
 ![alt text](https://raw.githubusercontent.com/Liberty-Chris/Morley/refs/heads/main/images/trad_vs_morley.png)
 
 * **State Consistency** – Unlike traditional PLCs that rely on local execution and state retention, Morley ensures that all logic transitions are reproducible on-chain, eliminating the risk of conflicting state changes.  
-* **Finality Guarantees** – Transactions are finalized deterministically, meaning once a contract executes, its state cannot be altered retrospectively. This eliminates common race conditions and indeterminate states found in off-chain automation.[3](place1)  
+* **Finality Guarantees** – Transactions are finalized deterministically, meaning once a contract executes, its state cannot be altered retrospectively. This eliminates common race conditions and indeterminate states found in off-chain automation.[3](#3) 
 * **Parallel Execution Efficiency** – Using Cardano’s eUTxO model, Morley smart contracts can process multiple machine events in parallel without encountering conflicts, ensuring high reliability in industrial applications.  
 * **Resource Optimization** – The PlutusLadder Compiler (PLC) optimizes Ladder Logic execution to minimize smart contract costs, making on-chain automation financially viable for real world use cases.
 
@@ -37,9 +37,9 @@ A key challenge in bringing automation logic on-chain is ensuring deterministic 
 
 As Morley expands its capabilities, Cardano’s Layer 2 (L2) and sidechain solutions can further enhance scalability, throughput, and cost efficiency for industrial and IoT applications:
 
-* **Hydra for High-Throughput Execution** – Morley smart contracts can operate within Hydra heads, enabling low latency, high frequency automation logic that executes off-chain while retaining security guarantees on Cardano's L1. This is ideal for real time factory automation, IoT device interactions, and energy grid management.[4](place1)  
-* **Midgard for Computational Efficiency** – Off-chain computing frameworks like Midgard can allow Morley to process complex industrial workflows off-chain and submit only final state changes to the blockchain, significantly reducing transaction load and execution costs.[5](place1) 
-* **Sidechains for Enterprise & Cross-Chain Integration** – Custom Cardano sidechains and partner chains (such as Milkomeda or Midnight) can extend Morley’s functionality by providing private execution environments, interoperability with non-Cardano systems, and regulatory compliance for enterprise adoption.[6](place1) [7](place1)
+* **Hydra for High-Throughput Execution** – Morley smart contracts can operate within Hydra heads, enabling low latency, high frequency automation logic that executes off-chain while retaining security guarantees on Cardano's L1. This is ideal for real time factory automation, IoT device interactions, and energy grid management.[4](#4) 
+* **Midgard for Computational Efficiency** – Off-chain computing frameworks like Midgard can allow Morley to process complex industrial workflows off-chain and submit only final state changes to the blockchain, significantly reducing transaction load and execution costs.[5](#5) 
+* **Sidechains for Enterprise & Cross-Chain Integration** – Custom Cardano sidechains and partner chains (such as Milkomeda or Midnight) can extend Morley’s functionality by providing private execution environments, interoperability with non-Cardano systems, and regulatory compliance for enterprise adoption.[6](#6) [7](#7)
 
  ![alt text](https://raw.githubusercontent.com/Liberty-Chris/Morley/refs/heads/main/images/morley_hydra.png)
 
@@ -336,7 +336,7 @@ The PlutusLadder Simulator in ArkWriter provides a sandbox testing environment f
 
 ArkWriter serves as the graphical user interface (GUI) for Morley, enabling engineers and developers to design, simulate, and deploy Ladder Logic smart contracts on Cardano’s blockchain. It provides a drag and drop interface for creating Ladder Logic diagrams, which are then converted into Plutus smart contracts.
 
-ArkWriter is built on a fork of OpenPLC, a widely used open source PLC runtime. This integration allows seamless adaptation of existing industrial automation workflows into Morley’s blockchain powered execution model.[8](place1)
+ArkWriter is built on a fork of OpenPLC, a widely used open source PLC runtime. This integration allows seamless adaptation of existing industrial automation workflows into Morley’s blockchain powered execution model.[8](#8)
 
 ### **ArkWriter Architecture & System Design**
 
@@ -404,7 +404,7 @@ Most major PLC systems adhere to the IEC 61131-3 standard, which defines five PL
 * **Sequential Function Chart (SFC)** – Some compatibility challenges remain.  
 * **Instruction List (IL)** – Deprecated but still used in legacy systems.
 
-**Morley’s Approach:** Ensure Morley’s Ladder Logic follows IEC 61131-3 syntax to facilitate cross compatibility with industrial PLC systems.[9](place1)
+**Morley’s Approach:** Ensure Morley’s Ladder Logic follows IEC 61131-3 syntax to facilitate cross compatibility with industrial PLC systems.[9](#9)
 
 #### **Direct PLC Integration via Standard Communication Protocols**
 
@@ -467,7 +467,7 @@ Morley extends the applicability of Ladder Logic into blockchain integrated solu
 
 ### **Internet of Things (IoT)**
 
-* **Secure IoT Device Automation –** Connects industrial IoT devices (Raspberry Pi, Arduino, ESP32) with blockchain verified automation workflows.[10](place1) [11](place1)
+* **Secure IoT Device Automation –** Connects industrial IoT devices (Raspberry Pi, Arduino, ESP32) with blockchain verified automation workflows.[10](#10) [11](#11)
 * **Decentralized Sensor Networks –** Enables real time decision making using trustless sensor data stored on-chain.  
 * **Smart Energy Management –** Automates energy trading and grid optimization using blockchain based coordination between devices.
 
@@ -959,27 +959,27 @@ For more information, visit [**morleylang.org**](https://morleylang.org) and joi
 
 References
 
-[1](morley-whitepaper-v1.0.md/place2) M. M. Chakravarty et al., "Plutus: A Safe and Flexible Smart Contract Platform," IOHK Research, 2018\. \[Online\]. Available: https://iohk.io/en/research/library/papers/plutus-a-safe-and-flexible-smart-contract-platform/
+<a name="1"></a> M. M. Chakravarty et al., "Plutus: A Safe and Flexible Smart Contract Platform," IOHK Research, 2018\. \[Online\]. Available: https://iohk.io/en/research/library/papers/plutus-a-safe-and-flexible-smart-contract-platform/
 
-[2](place2) M. M. Chakravarty et al., "The Extended UTXO Model: A Flexible Alternative to Account-Based Blockchains," IOHK Research, 2020\. \[Online\]. Available: https://iohk.io/en/research/library/papers/the-extended-utxo-model/
+<a name="2"></a> M. M. Chakravarty et al., "The Extended UTXO Model: A Flexible Alternative to Account-Based Blockchains," IOHK Research, 2020\. \[Online\]. Available: https://iohk.io/en/research/library/papers/the-extended-utxo-model/
 
-[3](place2) D. Coutts et al., "Transaction Validation and Determinism in Cardano," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/transaction-validation-and-determinism-in-cardano/
+<a name="3"></a> D. Coutts et al., "Transaction Validation and Determinism in Cardano," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/transaction-validation-and-determinism-in-cardano/
 
-[4](place2) D. Coutts et al., "Hydra: Fast Isomorphic State Channels," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/hydra-fast-isomorphic-state-channels/
+<a name="4"></a> D. Coutts et al., "Hydra: Fast Isomorphic State Channels," IOHK Research, 2021\. \[Online\]. Available: https://iohk.io/en/research/library/papers/hydra-fast-isomorphic-state-channels/
 
-[5](place2) IOHK Research, "Midgard: A Computational Framework for Off-Chain Execution," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/midgard-a-computational-framework-for-off-chain-execution/
+<a name="5"></a> IOHK Research, "Midgard: A Computational Framework for Off-Chain Execution," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/midgard-a-computational-framework-for-off-chain-execution/
 
-[6](place2) Midnight, "Nightpaper: A Litepaper Introducing Midnight," Sep. 16, 2024\. \[Online\]. Available: https://midnight.network/whitepaper
+[<a name="6"></a> Midnight, "Nightpaper: A Litepaper Introducing Midnight," Sep. 16, 2024\. \[Online\]. Available: https://midnight.network/whitepaper
 
-[7](place2) IOHK Research, "Cardano Sidechains: Architecture and Interoperability," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/cardano-sidechains-architecture-and-interoperability/
+<a name="7"></a> IOHK Research, "Cardano Sidechains: Architecture and Interoperability," IOHK, 2022\. \[Online\]. Available: https://iohk.io/en/research/library/papers/cardano-sidechains-architecture-and-interoperability/
 
-[8](place2) T. Casini, "OpenPLC: An Open-Source Alternative for Industrial Automation," IEEE Industrial Electronics Magazine, 2017\. \[Online\]. Available: https://ieeexplore.ieee.org/document/7989308
+<a name="8"></a> T. Casini, "OpenPLC: An Open-Source Alternative for Industrial Automation," IEEE Industrial Electronics Magazine, 2017\. \[Online\]. Available: https://ieeexplore.ieee.org/document/7989308
 
-[9](place2) International Electrotechnical Commission (IEC), "IEC 61131-3: Programmable Controllers – Part 3: Programming Languages," 2013\. \[Online\]. Available: https://webstore.iec.ch/publication/4552
+<a name="9"></a> International Electrotechnical Commission (IEC), "IEC 61131-3: Programmable Controllers – Part 3: Programming Languages," 2013\. \[Online\]. Available: https://webstore.iec.ch/publication/4552
 
-[10](place2) I. Lee and K. Lee, "The Internet of Things (IoT): Applications, Investments, and Challenges for Enterprises," Business Horizons, 2015\. \[Online\]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0007681314001320
+<a name="10"></a> I. Lee and K. Lee, "The Internet of Things (IoT): Applications, Investments, and Challenges for Enterprises," Business Horizons, 2015\. \[Online\]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0007681314001320
 
-[11](place2) X. Xu et al., "The Application of Smart Contracts in Supply Chain Management," IEEE Internet of Things Journal, 2020\. \[Online\]. Available: https://ieeexplore.ieee.org/document/9153035
+<a name="11"></a> X. Xu et al., "The Application of Smart Contracts in Supply Chain Management," IEEE Internet of Things Journal, 2020\. \[Online\]. Available: https://ieeexplore.ieee.org/document/9153035
 
 
 
