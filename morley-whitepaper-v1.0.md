@@ -20,7 +20,7 @@ By extending Ladder Logic into blockchain powered automation, Morley simplifies 
 
 Ladder Logic has long been the standard for programming Programmable Logic Controllers (PLCs), which are integral to industrial automation. However, traditional PLCs operate in siloed environments, limiting transparency, verifiability, and interoperability with external systems. Blockchain technology offers a decentralized, trustless infrastructure that enhances automation through immutability, security, and transparent execution.
 
-Morley was created to unify these paradigms, allowing engineers and developers to leverage their existing Ladder Logic expertise to build decentralized applications (dApps) on Cardano. By compiling Ladder Logic directly into Plutus Core, Morley ensures that industrial automation workflows can execute deterministically within the blockchain environment, guaranteeing consistency and security in machine driven operations.[1](place1) 
+Morley was created to unify these paradigms, allowing engineers and developers to leverage their existing Ladder Logic expertise to build decentralized applications (dApps) on Cardano. By compiling Ladder Logic directly into Plutus Core, Morley ensures that industrial automation workflows can execute deterministically within the blockchain environment, guaranteeing consistency and security in machine driven operations.[1](morley-whitepaper-v1.0.md/place1) 
 
 ### **Ensuring Deterministic Execution**
 
@@ -959,7 +959,7 @@ For more information, visit [**morleylang.org**](https://morleylang.org) and joi
 
 References
 
-[1](place2) M. M. Chakravarty et al., "Plutus: A Safe and Flexible Smart Contract Platform," IOHK Research, 2018\. \[Online\]. Available: https://iohk.io/en/research/library/papers/plutus-a-safe-and-flexible-smart-contract-platform/
+[1](morley-whitepaper-v1.0.md/place2) M. M. Chakravarty et al., "Plutus: A Safe and Flexible Smart Contract Platform," IOHK Research, 2018\. \[Online\]. Available: https://iohk.io/en/research/library/papers/plutus-a-safe-and-flexible-smart-contract-platform/
 
 [2](place2) M. M. Chakravarty et al., "The Extended UTXO Model: A Flexible Alternative to Account-Based Blockchains," IOHK Research, 2020\. \[Online\]. Available: https://iohk.io/en/research/library/papers/the-extended-utxo-model/
 
