@@ -16,7 +16,7 @@ Before deploying, ensure you have the following:
 ## 3. Deployment Steps
 
 ### Step 1: Verify the Compiled Plutus Script
-Ensure that `Compiled_Plutus_Script.plutus` has been successfully generated.
+Ensure that `Compiled_Plutus_Script.plutus` has been successfully generated
 
 ```sh
 cat Compiled_Plutus_Script.plutus
