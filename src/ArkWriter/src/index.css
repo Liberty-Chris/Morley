@@ -1,3 +1,100 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: #FF7F11;
+  --secondary: #4B5563;
+  --accent: #FFB347;
+  --background: #F9F9F9;
+  --text: #1F2937;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  position: relative;
+  z-index: 50;
+}
+
+.dropdown-menu > div {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.5rem;
+  min-width: 160px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu button.menu-item {
+  @apply w-full px-4 py-2 text-left text-black transition-colors;
+}
+
+.dropdown-menu button.menu-item:hover {
+  @apply bg-gray-700 text-white;
+}
+
+/* Network selector styles */
+.network-selector button:not(.active):hover {
+  @apply bg-gray-700 text-white;
+}
+
+/* Component category styles */
+details {
+  @apply mb-2 rounded-lg border border-gray-200 bg-white overflow-hidden;
+}
+
+details > summary {
+  @apply flex items-center justify-between p-3 cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors;
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::after {
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+  @apply text-gray-500;
+}
+
+details[open] > summary::after {
+  transform: rotate(-135deg);
+}
+
+details > div {
+  @apply p-3 border-t border-gray-200;
+}
+
+/* Component item styles */
+details .draggable-tool {
+  @apply flex items-center space-x-2 p-2 rounded cursor-grab hover:bg-gray-100 transition-colors;
+}
+
+details .draggable-tool:hover {
+  @apply bg-gray-100;
+}
+
+details .draggable-tool svg {
+  @apply text-gray-600;
+}
+
+details .draggable-tool span {
+  @apply text-sm text-gray-700;
+}
