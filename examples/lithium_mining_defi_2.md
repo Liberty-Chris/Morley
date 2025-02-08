@@ -1,6 +1,6 @@
 # Tokenized Lithium Production with On-Chain Contracts and Hydra
 
-## 1. How This Works: A Two-Tier Blockchain Architecture
+## 1. How This Works: A Two Tier Blockchain Architecture
 
 ### On-Chain (Main Cardano Layer)
 - The initial Plutus contract is deployed, defining rules for minting and burning LIT tokens.
