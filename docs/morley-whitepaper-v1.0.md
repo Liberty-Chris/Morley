@@ -14,7 +14,7 @@ This innovation empowers engineers, developers, and IoT specialists to leverage 
 * **Cost-Optimized Smart Contracts** – The PlutusLadder Compiler ensures efficient, low cost execution on-chain.  
 * **Broad Industry Applications** – Enables machine driven DeFi, supply chain automation, IoT integration, and decentralized industrial logic.
 
-By extending Ladder Logic into blockchain powered automation, Morley simplifies trustless machine-to-machine transactions, automated compliance enforcement, and transparent audit trails, paving the way for a new era of decentralized industrial systems.
+By extending Ladder Logic into blockchain powered automation, Morley simplifies trustless machine-to-machine (M2M) transactions, automated compliance enforcement, and transparent audit trails, paving the way for a new era of decentralized industrial systems.
 
 ## **Introduction**
 
