@@ -1,14 +1,34 @@
 """
-PlutusLadder Compiler (PLC)
-Converts LadderCore IR into Plutus validator scripts.
+PlutusLadder Compiler (PLC) - Enhanced
+Transforms LadderCore IR into valid Plutus Haskell and Plutus Core (PLC) with structured validation logic.
 """
 
-def compile_ir_to_plutus(ir_data):
-    """Transforms LadderCore IR into a valid Plutus smart contract script."""
-    # Placeholder for actual IR transformation logic
-    compiled_script = f"Plutus script for: {ir_data}"
-    return compiled_script
+import json
 
-if __name__ == "__main__":
-    example_ir = "Example LadderCore IR data"
-    print(compile_ir_to_plutus(example_ir))
+def compile_ir_to_plutus_haskell_enhanced(ir_data):
+    """
+    Converts LadderCore IR into a structured Plutus Haskell script with improved validation logic.
+    """
+    if not isinstance(ir_data, dict) or "instructions" not in ir_data:
+        raise ValueError("Invalid IR format")
+
+    haskell_script = """{-# INLINABLE validate #-}
+validate :: BuiltinData -> BuiltinData -> ScriptContext -> Bool
+validate _ _ ctx =
+    let txInfo = scriptContextTxInfo ctx
+    in """
+
+    grouped_conditions = []
+
+    for i, instruction in enumerate(ir_data["instructions"]):
+        if isinstance(instruction, dict):
+            inst_type = instruction["type"].lower()
+            grouped_conditions.append(f'traceIfFalse "Condition {i} failed: {inst_type}" ({instruction["args"]} txInfo)')
+
+    haskell_script += "    " + " &&\n    ".join(grouped_conditions) + """
+
+script :: PlutusScript
+script = mkValidatorScript $$(PlutusTx.compile [|| validate ||])
+"""
+
+    return haskell_script
